@@ -110,6 +110,21 @@ body {
     cursor: pointer;
 }
 
+/* Main related styles */
+.class-title {
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    border-radius: 12px;
+}
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, .nav-link {
