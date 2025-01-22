@@ -244,6 +244,50 @@ body {
     border: none;
     cursor: pointer;
     font-size: 16px;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Footer Section */
+.footer-links {
+    flex: 1px;
+    min-width: 200px;
+}
+
+.footer-links h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #01ACFD;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-logo {
+    display: flex;
+}
+
+.footer-logo-img {
+    height: 100px;
 }
 
 /* responsive media query */
