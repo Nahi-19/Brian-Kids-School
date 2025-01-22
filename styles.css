@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Quick-sand-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
     background-image: url(B11-A2-Kids-School/assets/bg.png);
     background-size: cover;
@@ -61,6 +70,44 @@ body {
 .brand-name {
     font-size: 32px;
     font-weight: bold;
+}
+
+/* Banner Related Styles */
+.banner-content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: orange;
+}
+
+.students {
+    color: black;
+}
+
+.vision {
+    color: skyblue;
+}
+
+.banner-description {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.banner-img {
+    height: 575px;
+    width: 468px;
+}
+
+.enroll-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 12px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
 }
 
 /* responsive media query */
